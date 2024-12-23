@@ -9,6 +9,8 @@ if 5>2:
 
 
 # working with varibale
-
 x=10
 y="Naimur Rahman Durjoy"
+
+
+print(x,y)
