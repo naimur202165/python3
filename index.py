@@ -64,5 +64,7 @@ print(mylist)
 
 print(len(mylist))
 
+print(type(mylist))
+
 
 
