@@ -1,70 +1,74 @@
 import random
 
+# List of all imported modules
+imported_modules = ["random"]
 
-print("heloo world")
+# Print statement
+print("hello world")
 
-if(5>2):
-    print("ture")
-
-
-if 5>2:
+# Conditional statements
+if 5 > 2:
+    print("true")
     print("naimur rahman")
 
+# Working with variables
+x = 10
+y = "Naimur Rahman Durjoy"
+print(x, y)
 
-# working with varibale
-x=10
-y="Naimur Rahman Durjoy"
-
-
-print(x,y)
-# working with func
-
-
-h="naimur rahman"
-
+# Working with functions
+h = "naimur rahman"
 def func():
-    print("I am "+h)
+    print("I am " + h)
 
-    func()
-
+func()
 
 def rony():
     global x
-    x="This is a global variables"
+    x = "This is a global variable"
 
-    rony()
+rony()
 
 # Working with numbers
+num1 = 1
+num2 = 3
+com = 1j
+print(num1, num2, com)
+print(random.randrange(1, 10))
 
-
-num1=1
-num2=3
-com=1j
-print(num1,num2,com)
-print(random.randrange(1,10))
-
-
-
-
-name="naimurahman"
-
-
+# String methods
+name = "naimurahman"
 print(name.lower())
 print(name.strip())
 # print(name.count())
 
+# Working with lists
+mylist = ["naimur", "basic", "ridoy"]
+print(mylist)
+print(len(mylist))
+print(type(mylist))
+print(random.randrange(1, 10))
 
-# working with lists
-
-
-mylist=["naimur","basic","ridoy"]
-
-
+# List methods
+mylist.append("Simul")
 print(mylist)
 
-print(len(mylist))
+# Looping through lists
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+for x in fruits:
+    print(x)
 
-print(type(mylist))
+# Nested loops
+for x in fruits:
+    for color in colors:
+        print(f"{x} is {color}")
 
+# Working with sets
+myset = {"naimur"}
+
+# Example of nested for loops
+fruits = ["apple", "banana", "cherry"]
+colors = ["red", "yellow", "green"]
+# ...existing code...
 
 
