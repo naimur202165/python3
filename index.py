@@ -72,3 +72,8 @@ colors = ["red", "yellow", "green"]
 # ...existing code...
 
 
+# working with if else function on python
+
+
+
+
